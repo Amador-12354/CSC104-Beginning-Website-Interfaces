@@ -1,0 +1,26 @@
+ body{
+    /* property: value; */
+     background-color: rgb(135, 219, 52);
+    /* color: black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    }
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+dd{
+    padding: 5px, 200px, 5px, 100px;
+}
+p{
+    /* To make bold text set the font-weight to bold */
+    font-weight: bolder;
+    padding: 20px;
+}
