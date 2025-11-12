@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    color: black;
+    background-image: url(./Week_8_Images/Congress\ building.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    background-image: url(Week_8_Images/The\ Constitution.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 100px;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}
+p{
+    padding: 20px;
+}
+nav{
+    position: relative;
+    transform: translateY(150%);
+    left: 30%;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li{
+    text-wrap: nowrap;
+    margin: 15px;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px;
+}
+.Section1, .Section2, .Section3, .Section4,.Section5,.Section6,.Section7,.Section8, .Section9, .Section10{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 30px;
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 40px 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    nav {
+        position: static;
+        transform: none;
+        left: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 80%;
+    }
+    h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .Description{
+        /* Whenever screen is smaller, a box will be placed */
+        width: auto;
+        height: auto;
+        background-color: white; 
+        border: 2px solid black;
+        padding: 20px;
+        margin: 30px;
+        box-sizing: border-box;
+    }
+}   
