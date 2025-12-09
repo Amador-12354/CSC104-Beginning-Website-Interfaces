@@ -1,5 +1,5 @@
 .hero{
-    background: url('./final_project_images/programming_image.jpg') center/cover no-repeat;
+    background: url('./programming_image.jpg') center/cover no-repeat;
     display: flex;
     min-height: 85vh;
     justify-content: space-between;
@@ -33,4 +33,5 @@
     font-size: large;
     width: 350px;
     padding: 10px;
+
 }
