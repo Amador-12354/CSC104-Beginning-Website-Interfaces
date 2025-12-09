@@ -1,0 +1,36 @@
+.hero{
+    background: url('./final_project_images/programming_image.jpg') center/cover no-repeat;
+    display: flex;
+    min-height: 85vh;
+    justify-content: space-between;
+    gap: 1px;
+    color: white;
+}
+.left{
+    padding: 50px;
+    margin-right: 100px;
+}
+.profile-img{
+    width: 300px;
+    height: auto;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    padding: 12px;
+}
+.right{
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    font-size: large;
+    margin-right: 20px;
+    padding: 50px;
+}
+.right p{
+    background-color: black;
+    font-size: large;
+    width: 350px;
+    padding: 10px;
+}
