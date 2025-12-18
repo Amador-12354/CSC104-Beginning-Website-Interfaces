@@ -1,0 +1,123 @@
+body{
+    background: url('./final_project_images/programming_image.jpg') center/cover no-repeat;
+    min-height: 95vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+/* By specifying nav a these styles will only apply to anchor tags within the nav sectipm */
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: large;
+}
+
+/* add style(s) for when the mosue hovers over nav menu */
+nav a:hover{
+    color: blue;
+}
+footer{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_icons{
+    display: inline-flex;
+    margin-right: 20px;
+    gap: 15px;
+    align-items: center;
+
+}
+
+/* Will hide the hamburger menu on larger screens */
+.hamburger{
+    display: none;
+}
+
+/* media query for smaller screens */
+@media (max-width: 768px) {
+    .hamburger{
+    /* Will move the hamburger menu to the left side on a smaller screen */
+        order: 0;
+        display: block;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    .hamburger span{
+        display: block;
+        width: 30px;
+        height: 4px;
+        margin: 5px;
+        background-color: black;
+    }
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgb(218, 214, 214);
+        color: white;
+        border-radius: 30px;
+        order: 1;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .nav-links.open{
+        display: flex;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .left{
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .profile-img{
+        width: 200px;
+    }
+
+    .icons{
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .right{
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+    .right h2{
+        font-size: 1.6rem;
+    }
+
+    .right p{
+        font-size: 1rem;
+    }
+
+    footer{
+        position: relative;
+    }
+}

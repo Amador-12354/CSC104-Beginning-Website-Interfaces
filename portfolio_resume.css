@@ -1,0 +1,41 @@
+.res_head, h2{
+        color: white;
+        text-align: center;
+    }
+
+   
+    button{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: large;
+        border-radius: 10px;
+        border: none;
+     }
+
+    button:hover{
+        background-color: yellow;
+    }
+
+    h3, h4{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .flex-column{
+        padding: 10px;
+        margin: 10px;
+        max-width: 450px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        color: black;
+        min-height: 350px;
+    }

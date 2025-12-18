@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ~ Resume</title>
+    <!-- The link below will ensure icons appear -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to the main portfolio css file (the glibal one) -->
+    <link rel="stylesheet" href="portfolio_main.css">
+    <link rel="stylesheet" href="portfolio_resume.css">
+</head>
+
+<body>
+    <header>
+        <div class="hamburger" id="divHamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- menu for navigating site -->
+         <nav class="nav-links" id="navLinks">
+            <a href="portfolio_home.html">Home</a>
+            <a href="portfolio_resume.html">Resume</a>
+            <a href="portfolio_projects.html">Coding Projects</a>
+            <a href="portfolio_contact.html">Contact Me</a>
+            <a href="portfolio_objectives.html">ACS Six Objectives</a>
+         </nav>
+    </header>
+    <main>
+        <h1 class="res_head">Resume</h1>
+        <button>Download My Resume</button>
+        <div class="flex-container">
+            <h2 class="Edu">Education</h2>
+            <article class="flex-column">
+                <h3>University of Advancing Technology</h3>
+                <h4>Bachelor of Science in Advanced Computer Science</h4>
+                <h4>Tempe, Arizona</h4>
+                <ul>
+                    <li>Memebr of Honors Program</li>
+                    <li>Secretary of GeekRho (student council)</li>
+                    <li>Relevant Coursework: Introduction to Databases, Python Programming I, C/C++ Programming I, Introduction to AI and Analytics, C++ Programming II, Beginning Website Interfaces, Data Structures and Algorithms</li>
+                </ul>
+            </article>
+        </div>
+        <div class="flex-container">
+            <h2 class="Exp">Experience</h2>
+            <article class="flex-column">
+                <h3>Student Ambassdor</h3>
+                <h4>June 2025 - Present</h4>
+                <h4>University of Advancing Technology</h4>
+                <h4>Tempe, Arizona</h4>
+                <ul>
+                    <li>Act as the face of the University of Advancing Technology</li>
+                    <li>Updatet and maintain records in the university's databse</li>
+                    <li>Be the point of contact for students</li>
+                    <li>Answer and direct phone calls</li>
+                    <li>Lead campus tours for prospective students</li>
+                </ul>
+            </article>
+            <article class="flex-column">
+                <h3>Juicer</h3>
+                <h4>March 2025 - Present</h4>
+                <h4>Product Connections</h4>
+                <h4>Chandler, Arizona</h4>
+                <ul>
+                    <li>Prepare and service juice samples to promote product</li>
+                    <li>Engage with customers and answer questions about the producte</li>
+                    <li>Maintain a clean and safe work area</li>
+                    <li>Assist with product setup, inventory, and prepping</li>
+                </ul>
+            </article>
+            <article class="flex-column">
+                <h3>FWS Bindery Assistant</h3>
+                <h4>January 2025 - June 2025</h4>
+                <h4>University of Advancing Technology</h4>
+                <h4>Tempe, Arizona</h4>
+                <ul>
+                    <li>Operated printing, cutting, and laminating equipment to produce high quality materials for academic and administrtative purposes</li>
+                    <li>Assembled and processed shipping orders and ensure accuracy in printed documents for students and faculty</li>
+                    <li>Gained a strong attention to detail and technical expertise in print production and order fulfillment</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact me at example@email.com</p>
+        <div class="footer_icons">
+                    <!-- These are the icons like Github, YouTUbe, and LinkedIn -->
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+    </footer>
+
+    <script>
+        //Create a few variables that are nicknames/shortcuts to the hamburger part of our page
+        let hamburger = document.getElementById("divHamburger");
+        let nav = document.getElementById("navLinks");
+
+        //Add an event handler
+        hamburger.addEventListener("click", ()=>{
+            //If the menu is closed, open it, otherwise close the menu
+            nav.classList.toggle("open");
+        })
+    </script>
+</body>
+</html>

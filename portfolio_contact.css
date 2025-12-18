@@ -1,0 +1,55 @@
+/* Form styling */
+        h1{
+            background-color: rgba(0,0,0,1);
+            color: white;
+            text-align: center;
+        }
+        form{
+            margin: 20px auto;
+            max-width: 400px;
+            text-align: center;
+            color: white;
+        }
+
+        .form-row{
+            margin: 20px;
+        }
+
+        label{
+            font-size: x-large;
+            background-color:  rgba(0,0,0,1);
+        }
+
+        input, textarea{
+            padding: 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        button{
+            padding: 5px;
+            font-size: large;
+            border-radius: 10px;
+            border: none;
+        }
+
+        button:hover{
+            background-color: yellow;
+        }
+        
+/* Styling for table */
+        caption{
+            text-align: center;
+            background-color: white;
+            font-size: large;
+        }
+        table{
+            background-color: white;
+            color: black;
+            padding: auto;
+            margin: 20px;
+        }
+
+        tr, td{
+            padding: 4px;
+        }

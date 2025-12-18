@@ -1,0 +1,29 @@
+.obj h1{
+        text-align: center;
+        color: white;
+    }
+
+    .obj h2, p{
+        color: white;
+    }
+
+
+
+    .obj .flex-column{
+        background-color: rgba(0,0,0,.7);
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 600px;
+        text-align: center;
+    }
+    .obj{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .foot{
+        color: black;
+    }
